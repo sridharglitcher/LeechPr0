@@ -1,0 +1,15 @@
+---
+application:
+  name: "leechpr0"
+  project: "TeleRoidLeechBot"
+  organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "Project0"
+  version: "3.6"
+routers:
+- name: "main-leechpr0"
+  routes:
+  - application_name: "leechpr0"
+    paths:
+    - "/*"
